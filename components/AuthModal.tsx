@@ -76,7 +76,7 @@ export default function AuthModal({ isOpen, onClose, mode, onSwitchMode }: AuthM
 
           {mode === 'signup' && (
             <div>
-              <label className="block text-sm font-medium mb-2">Phone Number</label>
+              <label className="block text-sm font-medium mb-2">contact</label>
               <div className="relative">
                 <Phone className="absolute left-3 top-3 h-5 w-5 text-gray-400" />
                 <input
@@ -106,7 +106,7 @@ export default function AuthModal({ isOpen, onClose, mode, onSwitchMode }: AuthM
 
           {mode === 'signup' && (
             <div>
-              <label className="block text-sm font-medium mb-2">Confirm Password</label>
+              <label className="block text-sm font-medium mb-2"> Password Confirm </label>
               <div className="relative">
                 <Lock className="absolute left-3 top-3 h-5 w-5 text-gray-400" />
                 <input
