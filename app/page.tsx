@@ -44,10 +44,10 @@ export default function Home() {
         
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Find Your Perfect Stay
+            "Find Your Perfect Stay"
           </h1>
-          <p className="text-xl md:text-2xl mb-8">
-            Discover amazing hotels across Pakistan
+          <p className="text-xl md:text-2xl mb-8 text-slate-950">
+            amazing hotels across gilgit baltistan discover more
           </p>
           
           {/* Search Form in Hero */}
@@ -116,7 +116,7 @@ export default function Home() {
                   className="w-full bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-700 transition duration-200 flex items-center justify-center"
                 >
                   <Search className="h-5 w-5 mr-2" />
-                  Search Hotels
+                   Hotels Search 
                 </button>
               </div>
             </div>
@@ -208,7 +208,7 @@ export default function Home() {
                 onClick={() => setShowAllHotelTypes(true)}
                 className="bg-green-600 text-white px-8 py-3 rounded-full hover:bg-green-700 hover:scale-105 transition-all duration-300 transform shadow-lg hover:shadow-xl"
               >
-                Show More Hotel Types
+                Show More types of hotel
               </button>
             </div>
           )}
@@ -279,14 +279,14 @@ export default function Home() {
                 <Star className="h-8 w-8 text-green-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Best Prices</h3>
-              <p className="text-gray-600">We guarantee the best prices for hotels across Pakistan with no hidden fees.</p>
+              <p className="text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, eaque.</p>
             </div>
             <div className="text-center group hover:scale-105 transition-transform duration-300">
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-green-200 transition-colors duration-300 animate-bounce" style={{animationDelay: '0.4s'}}>
                 <Users className="h-8 w-8 text-green-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">24/7 Support</h3>
-              <p className="text-gray-600">Our customer support team is available round the clock to assist you.</p>
+              <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
         </div>
@@ -298,7 +298,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <h3 className="text-xl font-bold mb-4">Hotels.pak</h3>
-              <p className="text-gray-300">Your trusted partner for finding the perfect accommodation across Pakistan.</p>
+              <p className="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perferendis?</p>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Quick Links</h4>
